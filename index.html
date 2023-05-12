@@ -1,29 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Selectors</title>
+  <link rel="stylesheet" href="css/stylesheet.css" type="text/css">
 </head>
+
 <body>
   <h2>Селектори</h2>
   <dl>
-    <dt>h2, h3</dt>
+    <dt>ul, ol</dt>
     <dd>
-      Оберуться всі заголовки h2 та h3
+      Оберуться усі елементи ul та ol
     </dd>
     <dt>.main</dt>
     <dd>
-      Оберуться всі елементи з класом .main
+      Оберуться усі елементи з класом .main
     </dd>
     <dt>#about</dt>
     <dd>
-      Оберуться всі елементи з id about
+      Оберуться усі елементи з id about
     </dd>
     <dt>a.link</dt>
     <dd>
-      Оберуться всі посилання з классом link
+      Оберуться усі посилання з классом link
     </dd>
     <dt>.main.link</dt>
     <dd>
@@ -31,8 +34,27 @@
     </dd>
     <dt>p a</dt>
     <dd>
-      Оберуться всі посилання, включенні у параграф
+      Оберуться усі посилання, вкладені у параграф
     </dd>
   </dl>
+  <h2>Приклади застосування селекторів</h2>
+  <p>Обрані усі параграфи</p>
+  <p class="paragraph">Обрані усі параграфи з класом paragraph</p>
+  <p id="text">Обрані усі параграфи з id text</p>
+  <p class="about desc">Обрані усі параграфи з класами about та desc</p>
+  <p><a href="#">Обрані усі посилання, вкладені у параграф</a></p>
+  <p><span>Стиль застосовується до елемента span, тільки якщо він є дочірнім елементом p</span></p>
+  <p>Стиль <b>застосовується до </b><i>елемента</i> тільки якщо елементи <b>b та i</b> є сусідніми елементами
+  </p>
+  <p title="Attribute usage">
+    Обрані усі елементи, усередині яких додано атрибут title
+  </p>
+  <p>
+    <a href="#" target="_blank">Обрані усі елементи, у яких вказано певне значення атрибуту, тобто target="_blank"</a>
+  </p>
+  <p>
+    <a href="http://google.com">Обрані усі елементи, у яких значення атрибуту href починається з http://</a>
+  </p>
 </body>
+
 </html>

@@ -1,0 +1,39 @@
+p {
+  color: #ff0000;
+}
+
+.paragraph {
+  color: #00ff2a;
+}
+
+#text {
+  color: #1900ff;
+}
+
+.about.desc {
+  color: #ff9100;
+}
+
+p a {
+  color: #00ffff;
+}
+
+p>span {
+  color: #ff00ea;
+}
+
+b+i {
+  color: #dfe20f;
+}
+
+[title] {
+  color: #ae00ff;
+}
+
+[target="_blank"] {
+  color: #a57189;
+}
+
+a[href^="http://"] {
+  color: #52ac89;
+}
